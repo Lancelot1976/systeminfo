@@ -6,3 +6,6 @@ apt -q update
 echo "  "
 echo "Upgradable packets:"
 apt list --upgradable
+echo "  "
+echo "Storage:"
+df -h
