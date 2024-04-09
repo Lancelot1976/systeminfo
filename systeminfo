@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Server: " `uname -a`
+echo "OS Version: " `cat /etc/debian_version`
+echo "  "
+apt -q update
+echo "  "
+echo "Upgradable packets:"
+apt list --upgradable
