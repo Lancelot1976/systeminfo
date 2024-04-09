@@ -8,6 +8,9 @@ echo "  "
 echo "Upgradable packets:"
 apt list --upgradable
 echo "  "
+echo "Active listening ports:"
+netstat -tulnp
+echo "  "
 echo "Storage:"
 df -h
 echo "  "
