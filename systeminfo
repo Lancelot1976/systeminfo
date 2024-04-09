@@ -12,5 +12,5 @@ echo "Storage:"
 df -h
 echo "  "
 echo "Log warnings and errors:"
-journalctl -p 4 --since "1 week ago" --no-pager
+journalctl -r -p 4 --since "1 week ago" --no-pager
 
