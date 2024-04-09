@@ -9,3 +9,7 @@ apt list --upgradable
 echo "  "
 echo "Storage:"
 df -h
+echo "  "
+echo "Log warnings and errors:"
+journalctl -p 4 --since "1 week ago"
+
